@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app for The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxanoel/weather-app.git"
+  },
+  "author": "Roxane Noel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roxanoel/weather-app/issues"
+  },
+  "homepage": "https://github.com/Roxanoel/weather-app#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
