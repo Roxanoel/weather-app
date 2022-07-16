@@ -7,19 +7,24 @@ async function geocodingLocation(city, state, country) {
             lon: json[0].lon,
         };
     } catch(err) {
-        console.error(err);
-        return err;
+        console.error('Problem with geocoding! Perhaps later I will want a UI thing to happen here.');
+        throw err;
     }
 }
 
 async function getCurrentWeatherData(location) {
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&appid=2a896af0add10ce545b2b79922b2e72a`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&appid=2a896af0add10ce545b2b79922b2e72a&units=metric`);
         const json = await response.json();
-        return json;
+        return {
+            description: json.weather[0].description,
+            temp: json.main.temp,
+            humidity: json.main.humidity,
+            feels_like: json.main.feels_like,
+        };
     } catch(err) {
-        console.error(err);
-        return err;
+        console.error('Problem with getting weather data! Perhaps later I will want a UI thing to happen here.');
+        throw err;
     }
 }
 
