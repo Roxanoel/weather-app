@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _weather_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./weather-data */ \"./src/weather-data.js\");\n\n\n(0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)('London', '', '').then(data => console.log(data));\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _weather_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./weather-data */ \"./src/weather-data.js\");\n\n\n(0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)('London', '', '')\n.then(locationData => (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.getCurrentWeatherData)(locationData))\n.then(weatherData => console.log(weatherData));\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _wea
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"geocodingLocation\": () => (/* binding */ geocodingLocation),\n/* harmony export */   \"getWeatherData\": () => (/* binding */ getWeatherData)\n/* harmony export */ });\nasync function geocodingLocation(city, state, country) {\n    try {\n        const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city},${state},${country}&appid=2a896af0add10ce545b2b79922b2e72a`);\n        const json = await response.json();\n        return {\n            lat: json[0].lat, \n            lon: json[0].lon,\n        };\n    } catch(err) {\n        console.error(err);\n    }\n}\n\nasync function getWeatherData(location) {\n    const response = await fetch(`urlToBeFilled${location}`);\n    return response;\n}\n\n\n\n\n//# sourceURL=webpack://weather-app/./src/weather-data.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"geocodingLocation\": () => (/* binding */ geocodingLocation),\n/* harmony export */   \"getCurrentWeatherData\": () => (/* binding */ getCurrentWeatherData)\n/* harmony export */ });\nasync function geocodingLocation(city, state, country) {\n    try {\n        const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city},${state},${country}&appid=2a896af0add10ce545b2b79922b2e72a`);\n        const json = await response.json();\n        return {\n            lat: json[0].lat, \n            lon: json[0].lon,\n        };\n    } catch(err) {\n        console.error(err);\n        return err;\n    }\n}\n\nasync function getCurrentWeatherData(location) {\n    try {\n        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&appid=2a896af0add10ce545b2b79922b2e72a`);\n        const json = await response.json();\n        return json;\n    } catch(err) {\n        console.error(err);\n        return err;\n    }\n}\n\n\n\n\n//# sourceURL=webpack://weather-app/./src/weather-data.js?");
 
 /***/ })
 
