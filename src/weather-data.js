@@ -12,12 +12,18 @@ async function geocodingLocation(city, state, country) {
     }
 }
 
-async function getWeatherData(location) {
-    const response = await fetch(`urlToBeFilled${location}`);
-    return response;
+async function getCurrentWeatherData(location) {
+    try {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&appid=2a896af0add10ce545b2b79922b2e72a`);
+        const json = await response.json();
+        return json;
+    } catch(err) {
+        console.error(err);
+        return err;
+    }
 }
 
 export {
     geocodingLocation,
-    getWeatherData
+    getCurrentWeatherData
 }
