@@ -8,6 +8,7 @@ async function geocodingLocation(city, state, country) {
         };
     } catch(err) {
         console.error(err);
+        return err;
     }
 }
 
