@@ -17,6 +17,7 @@ async function getCurrentWeatherData(location) {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.lat}&lon=${location.lon}&appid=2a896af0add10ce545b2b79922b2e72a&units=metric`);
         const json = await response.json();
         return {
+            location: json.name,
             description: json.weather[0].description,
             temp: json.main.temp,
             humidity: json.main.humidity,
