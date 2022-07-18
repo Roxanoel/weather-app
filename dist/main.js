@@ -16,7 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _weather_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./weather-data */ \"./src/weather-data.js\");\n\n\n(0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)('London', '', '')\n.then(locationData => (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.getCurrentWeatherData)(locationData))\n.then(weatherData => console.log(weatherData));\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _weather_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./weather-data */ \"./src/weather-data.js\");\n/* harmony import */ var _ui_search_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ui-search-util */ \"./src/ui-search-util.js\");\n\n\n\n// #region CACHED REFS\nconst form = document.getElementById('location-form');\nconst searchInput = document.getElementById('search-input');\n// #endregion\n\n// #region ADDING LISTENERS\nform.addEventListener('submit', (e) => {\n    e.preventDefault();\n    // Validation\n    if (searchInput.validity.valid) {\n        // If correct, handle data for API call\n        const parsedInput = (0,_ui_search_util__WEBPACK_IMPORTED_MODULE_1__.parseSearchInput)(searchInput.value);\n        (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)(parsedInput[0], parsedInput[1], parsedInput[2])\n        .then(locationData => (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.getCurrentWeatherData)(locationData))\n        .then(weatherData => console.log(weatherData));\n    }\n    // If incorrect, display error message detailing format. \n})\n// #endregion\n\n\n;(0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)('London', '', '')\n.then(locationData => (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.getCurrentWeatherData)(locationData))\n.then(weatherData => console.log(weatherData));\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/ui-search-util.js":
+/*!*******************************!*\
+  !*** ./src/ui-search-util.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"parseSearchInput\": () => (/* binding */ parseSearchInput)\n/* harmony export */ });\nfunction parseSearchInput(searchInput) {\n    // Turn input into array by splitting at commas \n    const split = searchInput.split(',');\n    // Check length of array to determine what to do (might need to add empty strings to make it total 3 so it fits well in function call)\n    while(split.length < 3) {\n        split.push('');\n    }\n    return split;\n}\n\n\n\n//# sourceURL=webpack://weather-app/./src/ui-search-util.js?");
 
 /***/ }),
 
