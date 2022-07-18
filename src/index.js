@@ -8,6 +8,8 @@ const searchInput = document.getElementById('search-input');
 const errorMsg = document.getElementById('search-error');
 
 let tempUnits = 'metric';  // Can be 'metric' or 'imperial'
+const tempToggleSwitch = document.querySelector('#temperature-settings input');
+tempToggleSwitch.addEventListener('change', toggleTempUnits);
 // #endregion
 
 // #region ADDING LISTENERS
@@ -41,6 +43,7 @@ form.addEventListener('submit', (e) => {
     // Toggles value of tempUnits between metric and imperial
     function toggleTempUnits() {
         tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';
+        console.log(tempUnits);
     }
 // #endregion 
 
