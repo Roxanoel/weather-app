@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-catch */
 async function geocodingLocation(city, state, country) {
     try {
         const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city},${state},${country}&appid=2a896af0add10ce545b2b79922b2e72a`);
@@ -7,7 +8,6 @@ async function geocodingLocation(city, state, country) {
             lon: json[0].lon,
         };
     } catch(err) {
-        console.error('Problem with geocoding! Perhaps later I will want a UI thing to happen here.');
         throw err;
     }
 }
