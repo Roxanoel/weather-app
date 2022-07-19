@@ -8,6 +8,11 @@
   margin: 0;
 }
 
+:root {
+  --accent-colour: #db4409;
+  --dark: #191f27;
+}
+
 body {
   background-image: url('./assets/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg');
   background-position: bottom center;
@@ -23,12 +28,51 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 900;
+  color: var(--dark);
+
+  margin-bottom: 2rem;
 }
 
 .container {
   height: 80vh;
   width: 80vw;
+}
+
+input[type="text"] {
+background: none;
+border: none;
+border-bottom: 2px solid white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+
+button {
+  background-color: var(--accent-colour);
+
+  border-style: none;
+  border-radius: 5px;
+}
+
+/* SEARCH FORM */
+#location-form {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+#location-form label {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#temperature-settings {
+  display: flex;
+  margin: 8px; 
+  gap: 8px;
+  align-items: center;
 }
 
 /* CURRENT WEATHER */
@@ -134,17 +178,6 @@ h1 {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
-
-#temperature-settings {
-    display: flex;
-    margin: 8px; 
-    gap: 8px;
-    align-items: center;
-}
-
-#location-form {
-    display: flex;
-}
 
 /* WEATHER ICONS BY ERIK FLOWERS */
 @font-face {
