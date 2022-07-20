@@ -37,21 +37,13 @@ h1 {
   width: 80vw;
 }
 
-input[type="text"] {
-background: none;
-border: none;
-border-bottom: 2px solid white;
+.forms-container {
+  display: flex;
+  gap: 2rem;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
-}
-
-button {
-  background-color: var(--accent-colour);
-
-  border-style: none;
-  border-radius: 5px;
+.hidden {
+  display: none;
 }
 
 /* SEARCH FORM */
@@ -61,9 +53,20 @@ button {
   align-items: baseline;
 }
 
-#location-form label {
-  font-weight: 600;
-  font-size: 24px;
+input[type="text"] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+}
+  
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(245, 245, 245);
+}
+  
+button {
+  background: none;
+  border-style: none;
+  border-radius: 5px;
 }
 
 #temperature-settings {
@@ -71,6 +74,19 @@ button {
   margin: 8px; 
   gap: 8px;
   align-items: center;
+}
+
+#search-error {
+  font-style: italic;
+  background-color: var(--accent-colour);
+  border-radius: 5px;
+  border: 2px solid white;
+
+  padding: 0 .5rem;
+  margin-bottom: 18px;
+
+  width: fit-content;
+  height: 1.8rem;
 }
 
 /* CURRENT WEATHER */
@@ -126,8 +142,8 @@ button {
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 44px;
+    height: 26px;
   }
   
   /* Hide default HTML checkbox */
@@ -144,17 +160,17 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: var(--accent-colour);
     -webkit-transition: .4s;
     transition: .4s;
-    border-radius: 34px;
+    border-radius: 26px;
   }
   
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 18px;
+    width: 18px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -164,17 +180,42 @@ button {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: var(--accent-colour);
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px var(--accent-colour);
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+
+  /* FONT AWESOME */
+  @font-face {
+    font-family: 'Font Awesome';
+    src: url('./assets/ui-icons/font-awesome/fa-solid-900.woff2') format('woff2'), url('./assets/ui-icons/font-awesome/fa-solid-900.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  .fa {
+    font-family: 'Font Awesome'; 
+  }
+
+  .fa-solid {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto; 
+  }
+
+  .fa-magnifying-glass::before {
+    content: "\f002"; 
   }
 
 /* WEATHER ICONS BY ERIK FLOWERS */
