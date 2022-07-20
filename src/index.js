@@ -23,7 +23,7 @@ form.addEventListener('submit', (e) => {
         const parsedInput = parseSearchInput(searchInput.value);
         geocodingLocation(parsedInput[0], parsedInput[1], parsedInput[2])
         .then(locationData => getCurrentWeatherData(locationData, tempUnits))
-        .then(weatherData => updateUi(weatherData))
+        .then(weatherData => updateUi(weatherData, tempUnits))
         .catch(() => displayInputError('Location not found. '));
     }
     // If incorrect, display error message detailing format. 
