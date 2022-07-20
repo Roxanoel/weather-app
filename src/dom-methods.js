@@ -22,10 +22,15 @@ function updateIcon(id) {
     iconClasses.add(iconClassCode);
 }
 
+function updateHumidity(humidity) {
+    document.querySelector('.current-weather .humidity .text').textContent = `Humidity: ${humidity}%`;
+}
+
 function updateUi(weatherData, tempUnits) {
     updateLocationName(weatherData.location);
     updateTemperature(weatherData.temp, tempUnits);
     updateIcon(weatherData.id);
+    updateHumidity(weatherData.humidity);
 }
 
 export {
