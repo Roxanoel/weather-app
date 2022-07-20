@@ -19,6 +19,7 @@ async function getCurrentWeatherData(location, tempUnits) {
         return {
             location: json.name,
             description: json.weather[0].description,
+            id: json.weather[0].id,
             temp: json.main.temp,
             humidity: json.main.humidity,
             feels_like: json.main.feels_like,
