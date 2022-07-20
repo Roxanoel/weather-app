@@ -96,9 +96,10 @@ button {
 /* CURRENT WEATHER */
 .current-weather {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr;
 
-    width: 240px;
+    min-width: 240px;
+    max-width: 400px;
     height: 40vh;
 
     background-color: rgba(0, 0, 0, .75);
@@ -112,11 +113,17 @@ button {
 
     margin: 0;
 
-    text-align: center;
-}
+    align-self: center;
+    justify-self: center;
+
+    font-weight: 800;
+    font-size: 32px;
+  }
 
 .hero {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
 
     grid-column: 1 / -1;
@@ -127,19 +134,49 @@ button {
     width: 100%;
 }
 
+.hero i {
+  grid-row: 1 / -1;
+
+  align-self: center;
+  justify-self: right;
+
+  padding: 0 16px;
+
+  font-size: max(50px, 10vh);
+}
+
+.temperature {
+  font-size: max(44px, 2rem);
+
+  align-self: end;
+
+  line-height: max(44px, 2rem);
+}
+
 .descr {
-    grid-column: 1 / -1;
-    justify-self: center;
-
-    background-color: rgba(0, 0, 0, .75);
-
     width: 100%;
 
-    text-align: center;
+    align-self: start; 
 }
 
 .icon {
-    text-align: right;
+    justify-self: right;
+}
+
+
+.text {
+  padding: 0 16px;
+}
+
+.icon, .text {
+  align-self: center;
+
+  font-size: 24px;
+}
+
+.humidity, .feels-like {
+  display: flex;
+  justify-content: center;
 }
 
 /* FOR TOGGLE */
