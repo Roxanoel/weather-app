@@ -15,7 +15,7 @@ tempToggleSwitch.addEventListener('change', toggleTempUnits);
 // #region ADDING LISTENERS
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    errorMsg.textContent = '';
+    hideErrorMsg();  // In case the error message is not already hidden. 
     // Validation
     if (searchInput.validity.valid) {
         // If correct, handle data for API call
@@ -36,8 +36,15 @@ form.addEventListener('submit', (e) => {
     
     // Displays error message upon failed search request. It is possible to add a preface to the message.
     function displayInputError(preface) {
+        errorMsg.classList.add('visible');
         errorMsg.textContent = `${preface}Please use the following format: 
         "City", "City, Country", or (for USA only) "City, State, Country".`;
+        setTimeout(hideErrorMsg, 8000);
+    }
+
+    function hideErrorMsg() {
+        errorMsg.textContent = '';
+        errorMsg.classList.remove('visible');
     }
 
     // Toggles value of tempUnits between metric and imperial
