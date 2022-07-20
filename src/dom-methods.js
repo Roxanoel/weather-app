@@ -26,11 +26,19 @@ function updateHumidity(humidity) {
     document.querySelector('.current-weather .humidity .text').textContent = `Humidity: ${humidity}%`;
 }
 
+function updateFeelsLike(feelsLike, tempUnits) {
+    const feelsLikeText = document.querySelector('.current-weather .feels-like .text');
+    const unitSymbol = (tempUnits === 'metric') ? '&deg;C' : '&deg;F';
+
+    feelsLikeText.innerHTML = `Feels like: ${Math.round(feelsLike)}${unitSymbol}`;
+}
+
 function updateUi(weatherData, tempUnits) {
     updateLocationName(weatherData.location);
     updateTemperature(weatherData.temp, tempUnits);
     updateIcon(weatherData.id);
     updateHumidity(weatherData.humidity);
+    updateFeelsLike(weatherData.feelsLike, tempUnits);
 }
 
 export {

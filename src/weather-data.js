@@ -22,7 +22,7 @@ async function getCurrentWeatherData(location, tempUnits) {
             id: json.weather[0].id,
             temp: json.main.temp,
             humidity: json.main.humidity,
-            feels_like: json.main.feels_like,
+            feelsLike: json.main.feels_like,
         };
     } catch(err) {
         console.error('Problem with getting weather data! Perhaps later I will want a UI thing to happen here.');
