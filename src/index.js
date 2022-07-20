@@ -1,6 +1,7 @@
 /* eslint-disable no-use-before-define */
 import { geocodingLocation, getCurrentWeatherData } from "./weather-data";
 import { parseSearchInput } from "./ui-search-util";
+import { updateUi } from "./dom-methods";
 
 // #region CACHED REFS
 const form = document.getElementById('location-form');
@@ -22,7 +23,7 @@ form.addEventListener('submit', (e) => {
         const parsedInput = parseSearchInput(searchInput.value);
         geocodingLocation(parsedInput[0], parsedInput[1], parsedInput[2])
         .then(locationData => getCurrentWeatherData(locationData, tempUnits))
-        .then(weatherData => console.log(weatherData))
+        .then(weatherData => updateUi(weatherData))
         .catch(() => displayInputError('Location not found. '));
     }
     // If incorrect, display error message detailing format. 
