@@ -1,11 +1,28 @@
 function parseSearchInput(searchInput) {
     // Turn input into array by splitting at commas 
     const split = searchInput.split(',');
-    // Check length of array to determine what to do (might need to add empty strings to make it total 3 so it fits well in function call)
-    while(split.length < 3) {
-        split.push('');
+    // If there are three elements in the array, assume the format is "city, state, country"
+    if(split.length === 3) {
+        return {
+            city: split[0],
+            state: split[1],
+            country: split[2],
+        }
     }
-    return split;
+    // If there are two elements, assume the format is "city, country"
+    if(split.length === 2) {
+        return {
+        city: split[0],
+        state: '',
+        country: split[1],
+        }
+    } 
+    // Otherwise return the only string as the city name, and the rest as empty strings
+    return {
+        city: split[0],
+        state: '',
+        country: '',
+    }
 }
 
 export {
