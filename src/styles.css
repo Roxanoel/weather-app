@@ -26,10 +26,24 @@ body {
   align-items: center;
 }
 
+a {
+  color: var(--accent-colour);
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 900;
   color: white;
+}
+
+#img-credit {
+  font-weight: 300;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  padding: 0 8px;
 }
 
 .container {
