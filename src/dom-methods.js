@@ -2,10 +2,11 @@ function updateLocationName(locationName) {
     document.querySelector('h1').textContent = locationName;
 }
 
-function updateCardHeading(index, timestamp) {
+function updateCardHeading(index, timestamp, timezone) {
     const heading = document.querySelector(`[data-index="${index}"] h2`);
 
     heading.textContent = timestamp;
+    console.log(timezone);
 }
 
 function updateTemperature(index ,temp, tempUnits) {
@@ -66,7 +67,7 @@ function updateUi(weatherData, tempUnits) {
         // Setup a data attribute to use for querySelector
         cards[i].setAttribute('data-index', i);
         // Update display elements for this item of data.
-        updateCardHeading(i, weatherData.datalist[i].timestamp);
+        updateCardHeading(i, weatherData.datalist[i].timestamp, weatherData.timezone);
         updateTemperature(i, weatherData.datalist[i].temp, tempUnits);
         updateIcon(i, weatherData.datalist[i].id);
         updateDescr(i, weatherData.datalist[i].descr);
