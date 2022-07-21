@@ -21,7 +21,6 @@ form.addEventListener('submit', (e) => {
     if (searchInput.validity.valid) {
         // If correct, handle data for API call
         const parsedInput = parseSearchInput(searchInput.value);
-        console.log(parsedInput);
         geocodingLocation(parsedInput)
         .then(locationData => getCurrentWeatherData(locationData, tempUnits))
         .then(weatherData => updateUi(weatherData, tempUnits))
@@ -53,9 +52,16 @@ form.addEventListener('submit', (e) => {
     function toggleTempUnits() {
         tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';
     }
+
+    function showDefaultLocation() {
+        geocodingLocation({city: 'London', state: '', country: ''})
+        .then(locationData => getCurrentWeatherData(locationData, tempUnits))
+        .then(weatherData => updateUi(weatherData, tempUnits))
+        .catch(() => displayInputError('Location not found. '));
+    }
 // #endregion 
 
+// #region INIT
+showDefaultLocation();
 
-geocodingLocation({city: 'London', state: '', country: ''})
-.then(locationData => getCurrentWeatherData(locationData))
-.then(weatherData => console.log(weatherData));
+// #endregion
