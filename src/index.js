@@ -63,5 +63,4 @@ form.addEventListener('submit', (e) => {
 
 // #region INIT
 showDefaultLocation();
-
 // #endregion

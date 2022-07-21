@@ -11,6 +11,7 @@
 :root {
   --accent-colour: #db4409;
   --dark: #191f27;
+  --translucent-background: rgba(0, 0, 0, .75);
 }
 
 body {
@@ -56,8 +57,11 @@ h1 {
   gap: 2rem;
 }
 
-.hidden {
-  display: none;
+.forecast-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
 }
 
 /* SEARCH FORM */
@@ -117,19 +121,25 @@ button {
   border: 2px solid white;
 }
 
+/* FORECAST */
+.card {
+  background-color: var(--translucent-background);
+}
+
 /* CURRENT WEATHER */
-.current-weather {
-    display: grid;
+
+.current-weather.card {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  
+  display: grid;
     grid-template-columns: 1fr;
 
-    min-width: 240px;
+    min-width: 200px;
     max-width: 400px;
     height: 40vh;
 
-    background-color: rgba(0, 0, 0, .75);
     border-radius: 16px;
-
-    color: white;
 }
 
 .current-weather h2 {
@@ -201,6 +211,16 @@ button {
 .humidity, .feels-like {
   display: flex;
   justify-content: center;
+}
+
+/* EXTENDED FORECAST */
+.extended-forecast.card {
+  grid-row: 2 / -1;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10px;
 }
 
 /* FOR TOGGLE */
