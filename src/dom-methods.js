@@ -31,11 +31,15 @@ function updateHumidity(index,humidity) {
     }
 }
 
-function updateFeelsLike(feelsLike, tempUnits) {
-    const feelsLikeText = document.querySelector('.current-weather .feels-like .text');
+function updateFeelsLike(index, feelsLike, tempUnits) {
+    const feelsLikeText = document.querySelector(`[data-index="${index}"] .feels-like .text`);
     const unitSymbol = (tempUnits === 'metric') ? '&deg;C' : '&deg;F';
 
-    feelsLikeText.innerHTML = `Feels like: ${Math.round(feelsLike)}${unitSymbol}`;
+    if (index === 0) {  // Current temp card displays a longer message.
+        feelsLikeText.innerHTML = `Feels like: ${Math.round(feelsLike)}${unitSymbol}`;
+    } else {
+        feelsLikeText.innerHTML = `${Math.round(feelsLike)}${unitSymbol}`;
+    }
 }
 
 function getAllCards() {
@@ -53,12 +57,8 @@ function updateUi(weatherData, tempUnits) {
         updateTemperature(i, weatherData.datalist[i].temp, tempUnits);
         updateIcon(i, weatherData.datalist[i].id);
         updateHumidity(i, weatherData.datalist[i].humidity);
+        updateFeelsLike(i, weatherData.datalist[i].feelsLike, tempUnits);
     }
-
-    /*updateTemperature(weatherData.temp, tempUnits);
-    updateIcon(weatherData.id);
-    updateHumidity(weatherData.humidity);
-    updateFeelsLike(weatherData.feelsLike, tempUnits);*/
 }
 
 export {
