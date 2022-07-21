@@ -9,9 +9,9 @@ function updateTemperature(index ,temp, tempUnits) {
     tempText.innerHTML = `${Math.round(temp)}${unitSymbol}`;
 }
 
-function updateIcon(id) {
+function updateIcon(index, id) {
     const iconClassCode = `wi-owm-${id}`;
-    const icon = document.querySelector('.hero i');
+    const icon = document.querySelector(`[data-index="${index}"] .hero i`);
     // first, clear class list: 
     const iconClasses = icon.classList;
     while (iconClasses.length > 0) {
@@ -42,8 +42,11 @@ function updateUi(weatherData, tempUnits) {
     const cards = getAllCards();
 
     for (let i = 0; i < cards.length; i+=1) {
+        // Setup a data attribute to use for querySelector
         cards[i].setAttribute('data-index', i);
+        // Update display elements for this item of data.
         updateTemperature(i, weatherData.datalist[i].temp, tempUnits);
+        updateIcon(i, weatherData.datalist[i].id);
     }
 
     /*updateTemperature(weatherData.temp, tempUnits);

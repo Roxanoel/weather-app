@@ -231,6 +231,7 @@ align-self: center;
 
 .extended-forecast .hero i {
   grid-column: 1 / 2;
+  font-size: 1.5rem;
 }
 
 .extended-forecast .temperature {
