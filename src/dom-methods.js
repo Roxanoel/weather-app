@@ -22,8 +22,13 @@ function updateIcon(index, id) {
     iconClasses.add(iconClassCode);
 }
 
-function updateHumidity(humidity) {
-    document.querySelector('.current-weather .humidity .text').textContent = `Humidity: ${humidity}%`;
+function updateHumidity(index,humidity) {
+    const humidityText = document.querySelector(`[data-index="${index}"] .humidity .text`);
+    if (index === 0) {  // Current temp card displays a longer message.
+        humidityText.textContent = `Humidity: ${humidity}%`;
+    } else {
+        humidityText.textContent = `${humidity}%`
+    }
 }
 
 function updateFeelsLike(feelsLike, tempUnits) {
@@ -47,6 +52,7 @@ function updateUi(weatherData, tempUnits) {
         // Update display elements for this item of data.
         updateTemperature(i, weatherData.datalist[i].temp, tempUnits);
         updateIcon(i, weatherData.datalist[i].id);
+        updateHumidity(i, weatherData.datalist[i].humidity);
     }
 
     /*updateTemperature(weatherData.temp, tempUnits);
