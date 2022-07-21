@@ -42,6 +42,12 @@ function updateFeelsLike(index, feelsLike, tempUnits) {
     }
 }
 
+function updateDescr(index, descr) {
+    const descriptionText = document.querySelector(`[data-index="${index}"] .descr`);
+    const capitalized = descr.charAt(0).toUpperCase() + descr.slice(1);
+    descriptionText.textContent = capitalized;
+}
+
 function getAllCards() {
     return document.querySelectorAll('.card');
 }
@@ -56,6 +62,7 @@ function updateUi(weatherData, tempUnits) {
         // Update display elements for this item of data.
         updateTemperature(i, weatherData.datalist[i].temp, tempUnits);
         updateIcon(i, weatherData.datalist[i].id);
+        updateDescr(i, weatherData.datalist[i].descr);
         updateHumidity(i, weatherData.datalist[i].humidity);
         updateFeelsLike(i, weatherData.datalist[i].feelsLike, tempUnits);
     }
