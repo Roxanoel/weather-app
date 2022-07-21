@@ -53,10 +53,19 @@ h1 {
   align-items: baseline;
 }
 
-input[type="text"] {
+input[type="text"], 
+input[type="text"]:hover, 
+input[type="text"]:focus, 
+input[type="text"]:active  {
   background: none;
+
+  outline: none;
   border: none;
   border-bottom: 2px solid white;
+
+  font-family: inherit;
+
+  padding: 0 8px;
 }
   
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
