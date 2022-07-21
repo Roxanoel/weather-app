@@ -2,8 +2,8 @@ function updateLocationName(locationName) {
     document.querySelector('h1').textContent = locationName;
 }
 
-function updateTemperature(temp, tempUnits) {
-    const tempText = document.querySelector('.current-weather .temperature');
+function updateTemperature(index ,temp, tempUnits) {
+    const tempText = document.querySelector(`[data-index="${index}"] .temperature`);
     const unitSymbol = (tempUnits === 'metric') ? '&deg;C' : '&deg;F';
 
     tempText.innerHTML = `${Math.round(temp)}${unitSymbol}`;
@@ -41,7 +41,10 @@ function updateUi(weatherData, tempUnits) {
     updateLocationName(weatherData.location);
     const cards = getAllCards();
 
-    console.log(weatherData);
+    for (let i = 0; i < cards.length; i+=1) {
+        cards[i].setAttribute('data-index', i);
+        updateTemperature(i, weatherData.datalist[i].temp, tempUnits);
+    }
 
     /*updateTemperature(weatherData.temp, tempUnits);
     updateIcon(weatherData.id);
