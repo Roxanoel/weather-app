@@ -19,7 +19,7 @@ async function getWeatherData(location, tempUnits) {
         const json = await response.json();
         return {
             location: `${json.city.name}, ${json.city.country}`,
-            datalist: json.list,
+            datalist: [json.list[0], json.list[2], json.list[4], json.list[6], json.list[8], json.list[10]],
             
             /* description: json.weather[0].description,
             id: json.weather[0].id,
