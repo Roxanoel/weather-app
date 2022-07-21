@@ -1,12 +1,23 @@
+import formatRelative from 'date-fns/formatRelative';
+import parseJSON from 'date-fns/parseJSON';
+
+function capitalizeFirstLetter(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 function updateLocationName(locationName) {
     document.querySelector('h1').textContent = locationName;
 }
 
 function updateCardHeading(index, timestamp, timezone) {
     const heading = document.querySelector(`[data-index="${index}"] h2`);
+    const now = new Date(Date.now());
+    
+    const parsedTimestamp = parseJSON(timestamp);
+    const formattedTimestamp = formatRelative(parsedTimestamp, now).replace(' at ', ', ');
 
-    heading.textContent = timestamp;
-    console.log(timezone);
+    heading.textContent = capitalizeFirstLetter(formattedTimestamp);
+    console.log(parsedTimestamp);
 }
 
 function updateTemperature(index ,temp, tempUnits) {
@@ -51,7 +62,7 @@ function updateFeelsLike(index, feelsLike, tempUnits) {
 
 function updateDescr(index, descr) {
     const descriptionText = document.querySelector(`[data-index="${index}"] .descr`);
-    const capitalized = descr.charAt(0).toUpperCase() + descr.slice(1);
+    const capitalized = capitalizeFirstLetter(descr);
     descriptionText.textContent = capitalized;
 }
 
