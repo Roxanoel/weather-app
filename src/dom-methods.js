@@ -1,3 +1,4 @@
+import { parseISO } from 'date-fns';
 import formatRelative from 'date-fns/formatRelative';
 import parseJSON from 'date-fns/parseJSON';
 
@@ -12,15 +13,23 @@ function updateLocationName(locationName) {
 function updateCardHeading(index, timestamp, timezone) {
     const heading = document.querySelector(`[data-index="${index}"] h2`);
     const now = new Date(Date.now());
-    const nowUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
+    const nowUtc = (Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
                 now.getUTCDate(), now.getUTCHours(),
-                now.getUTCMinutes(), now.getUTCSeconds());
-    
-    const parsedTimestamp = Date.parse(timestamp) + (timezone * 1000);
-    const formattedTimestamp = formatRelative(parsedTimestamp, nowUtc).replace(' at ', ', ');
+                now.getUTCMinutes(), now.getUTCSeconds()))/1000;
+
+    const dateFromNowUtc = new Date(0);
+    dateFromNowUtc.setUTCSeconds(nowUtc);
+    const dateFromTimestamp = new Date(0);
+    dateFromTimestamp.setUTCSeconds(timestamp + timezone);
+ 
+    const formattedTimestamp = formatRelative(dateFromTimestamp, nowUtc).replace(' at ', ', ');
 
     heading.textContent = capitalizeFirstLetter(formattedTimestamp);
-    console.log(parsedTimestamp);
+
+    console.log(nowUtc);
+    console.log(dateFromNowUtc);
+    console.log(timestamp);
+    console.log(dateFromTimestamp);
     console.log(timezone);
 }
 
