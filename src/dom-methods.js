@@ -12,12 +12,16 @@ function updateLocationName(locationName) {
 function updateCardHeading(index, timestamp, timezone) {
     const heading = document.querySelector(`[data-index="${index}"] h2`);
     const now = new Date(Date.now());
+    const nowUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
+                now.getUTCDate(), now.getUTCHours(),
+                now.getUTCMinutes(), now.getUTCSeconds());
     
-    const parsedTimestamp = parseJSON(timestamp);
-    const formattedTimestamp = formatRelative(parsedTimestamp, now).replace(' at ', ', ');
+    const parsedTimestamp = Date.parse(timestamp) + (timezone * 1000);
+    const formattedTimestamp = formatRelative(parsedTimestamp, nowUtc).replace(' at ', ', ');
 
     heading.textContent = capitalizeFirstLetter(formattedTimestamp);
     console.log(parsedTimestamp);
+    console.log(timezone);
 }
 
 function updateTemperature(index ,temp, tempUnits) {
