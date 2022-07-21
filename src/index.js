@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import { geocodingLocation, getCurrentWeatherData } from "./weather-data";
+import { geocodingLocation, getWeatherData } from "./weather-data";
 import { parseSearchInput } from "./ui-search-util";
 import { updateUi } from "./dom-methods";
 
@@ -22,7 +22,7 @@ form.addEventListener('submit', (e) => {
         // If correct, handle data for API call
         const parsedInput = parseSearchInput(searchInput.value);
         geocodingLocation(parsedInput)
-        .then(locationData => getCurrentWeatherData(locationData, tempUnits))
+        .then(locationData => getWeatherData(locationData, tempUnits))
         .then(weatherData => updateUi(weatherData, tempUnits))
         .catch(() => displayInputError('Location not found. '));
     }
@@ -55,7 +55,7 @@ form.addEventListener('submit', (e) => {
 
     function showDefaultLocation() {
         geocodingLocation({city: 'London', state: '', country: ''})
-        .then(locationData => getCurrentWeatherData(locationData, tempUnits))
+        .then(locationData => getWeatherData(locationData, tempUnits))
         .then(weatherData => updateUi(weatherData, tempUnits))
         .catch(() => displayInputError('Location not found. '));
     }

@@ -33,12 +33,20 @@ function updateFeelsLike(feelsLike, tempUnits) {
     feelsLikeText.innerHTML = `Feels like: ${Math.round(feelsLike)}${unitSymbol}`;
 }
 
+function getAllCards() {
+    return document.querySelectorAll('.card');
+}
+
 function updateUi(weatherData, tempUnits) {
     updateLocationName(weatherData.location);
-    updateTemperature(weatherData.temp, tempUnits);
+    const cards = getAllCards();
+
+    console.log(weatherData);
+
+    /*updateTemperature(weatherData.temp, tempUnits);
     updateIcon(weatherData.id);
     updateHumidity(weatherData.humidity);
-    updateFeelsLike(weatherData.feelsLike, tempUnits);
+    updateFeelsLike(weatherData.feelsLike, tempUnits);*/
 }
 
 export {
