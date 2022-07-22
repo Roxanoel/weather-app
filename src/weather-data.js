@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-catch */
 async function geocodingLocation(parsedInput) {
     try {
-        const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${parsedInput.city},${parsedInput.state},${parsedInput.country}&appid=2a896af0add10ce545b2b79922b2e72a`);
+        const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${parsedInput.city},${parsedInput.state},${parsedInput.country}&appid=2a896af0add10ce545b2b79922b2e72a`);
         const json = await response.json();
         return {
             lat: json[0].lat, 
