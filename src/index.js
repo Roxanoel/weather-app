@@ -50,7 +50,10 @@ form.addEventListener('submit', (e) => {
 
     // Toggles value of tempUnits between metric and imperial
     function toggleTempUnits() {
+        // Changes reference to unit type
         tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';
+        // Updates display to match, using most recent search query
+        showLocation(mostRecentSearch);
     }
 
     function showLocation(location) {
