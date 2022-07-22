@@ -24,10 +24,7 @@ form.addEventListener('submit', (e) => {
     if (searchInput.validity.valid) {
         // If correct, handle data for API call
         const parsedInput = parseSearchInput(searchInput.value);
-        geocodingLocation(parsedInput)
-        .then(locationData => getWeatherData(locationData, tempUnits))
-        .then(weatherData => updateUi(weatherData, tempUnits))
-        .catch(() => displayInputError('Location not found. '));
+        showLocation(parsedInput);
     }
     // If incorrect, display error message detailing format. 
     else {
