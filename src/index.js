@@ -4,11 +4,14 @@ import { parseSearchInput } from "./ui-search-util";
 import { updateUi } from "./dom-methods";
 
 // #region CACHED REFS
+const defaultLocation = {city: 'London', state: '', country: ''};
+
 const form = document.getElementById('location-form');
 const searchInput = document.getElementById('search-input');
 const errorMsg = document.getElementById('search-error');
 
 let tempUnits = 'metric';  // Can be 'metric' or 'imperial'
+let mostRecentSearch;
 const tempToggleSwitch = document.querySelector('#temperature-settings input');
 tempToggleSwitch.addEventListener('change', toggleTempUnits);
 // #endregion
@@ -53,14 +56,17 @@ form.addEventListener('submit', (e) => {
         tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';
     }
 
-    function showDefaultLocation() {
-        geocodingLocation({city: 'London', state: '', country: ''})
+    function showLocation(location) {
+        geocodingLocation(location)
         .then(locationData => getWeatherData(locationData, tempUnits))
         .then(weatherData => updateUi(weatherData, tempUnits))
         .catch(() => displayInputError('Location not found. '));
+
+        // Also sets the last search result as this location
+        mostRecentSearch = location;
     }
 // #endregion 
 
 // #region INIT
-showDefaultLocation();
+showLocation(defaultLocation);
 // #endregion
