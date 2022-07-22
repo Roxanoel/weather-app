@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
     if (searchInput.validity.valid) {
         // If correct, handle data for API call
         const parsedInput = parseSearchInput(searchInput.value);
-        showLocation(parsedInput);
+        updateForecast(parsedInput);
     }
     // If incorrect, display error message detailing format. 
     else {
@@ -53,10 +53,10 @@ form.addEventListener('submit', (e) => {
         // Changes reference to unit type
         tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';
         // Updates display to match, using most recent search query
-        showLocation(mostRecentSearch);
+        updateForecast(mostRecentSearch);
     }
 
-    function showLocation(location) {
+    function updateForecast(location) {
         geocodingLocation(location)
         .then(locationData => getWeatherData(locationData, tempUnits))
         .then(weatherData => updateUi(weatherData, tempUnits))
@@ -68,5 +68,5 @@ form.addEventListener('submit', (e) => {
 // #endregion 
 
 // #region INIT
-showLocation(defaultLocation);
+updateForecast(defaultLocation);
 // #endregion
