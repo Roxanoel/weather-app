@@ -10,6 +10,46 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles.css":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \**************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg */ \"./src/assets/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/ui-icons/font-awesome/fa-solid-900.woff2 */ \"./src/assets/ui-icons/font-awesome/fa-solid-900.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/ui-icons/font-awesome/fa-solid-900.ttf */ \"./src/assets/ui-icons/font-awesome/fa-solid-900.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/weather-icons/weathericons-regular-webfont.eot */ \"./src/assets/weather-icons/weathericons-regular-webfont.eot\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/weather-icons/weathericons-regular-webfont.woff2 */ \"./src/assets/weather-icons/weathericons-regular-webfont.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/weather-icons/weathericons-regular-webfont.woff */ \"./src/assets/weather-icons/weathericons-regular-webfont.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/weather-icons/weathericons-regular-webfont.ttf */ \"./src/assets/weather-icons/weathericons-regular-webfont.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/weather-icons/weathericons-regular-webfont.svg */ \"./src/assets/weather-icons/weathericons-regular-webfont.svg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___, { hash: \"?#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___, { hash: \"#weather_iconsregular\" });\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  /* Defaults */\\n  font-family: 'Cairo', sans-serif;\\n  font-size: 18px;\\n  color: white;\\n  margin: 0;\\n}\\n\\n:root {\\n  --accent-colour: #db4409;\\n  --dark: #191f27;\\n  --translucent-background: rgba(0, 0, 0, .75);\\n}\\n\\nbody {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-position: bottom center;\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n\\n  height: 100vh;\\n  display: grid;\\n  align-items: center;\\n  justify-items: center;\\n}\\n\\na {\\n  color: var(--accent-colour);\\n}\\n\\nh1 {\\n  font-size: 2.5rem;\\n  font-weight: 900;\\n  color: white;\\n}\\n\\n#img-credit {\\n  font-weight: 300;\\n\\n  position: fixed;\\n  bottom: 0;\\n  right: 0;\\n\\n  padding: 0 8px;\\n}\\n\\n.container {\\n  height: 70vh;\\n  width: 90vw;\\n  max-width: 1540px;\\n}\\n\\n.forms-container {\\n  display: flex;\\n  gap: 2rem;\\n}\\n\\n.forecast-container {\\n  display: grid;\\n  grid-template-columns: repeat(7, 1fr);\\n  grid-template-rows: 1fr 1fr;\\n  gap: 8px;\\n}\\n\\n/* SEARCH FORM */\\n#location-form {\\n  display: flex;\\n  gap: 1rem;\\n  align-items: baseline;\\n}\\n\\ninput[type=\\\"text\\\"], \\ninput[type=\\\"text\\\"]:hover, \\ninput[type=\\\"text\\\"]:focus, \\ninput[type=\\\"text\\\"]:active {\\n  background: none;\\n\\n  outline: none;\\n  border: none;\\n  border-bottom: 2px solid white;\\n\\n  font-family: inherit;\\n  font-style: italic;\\n\\n  padding: 0 8px;\\n}\\n  \\n::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */\\n  color: rgb(245, 245, 245);\\n}\\n  \\nbutton {\\n  background: none;\\n  border-style: none;\\n  border-radius: 5px;\\n}\\n\\n#temperature-settings {\\n  display: flex;\\n  margin: 8px; \\n  gap: 8px;\\n  align-items: center;\\n}\\n\\n#search-error {\\n  padding: 0 .5rem;\\n  margin-bottom: 18px;\\n\\n  width: fit-content;\\n  min-height: 1.8rem;\\n\\n  box-sizing: border-box;\\n}\\n\\n#search-error.visible {\\n  font-style: italic;\\n  background-color: var(--accent-colour);\\n  border-radius: 5px;\\n  border: 2px solid white;\\n}\\n\\n/* FORECAST: GENERAL STYLES */\\n.card {\\n  background-color: var(--translucent-background);\\n\\n  display: grid;\\n  grid-template-columns: 1fr;\\n}\\n\\n.card h2 {\\n  grid-column: 1 / -1;\\n\\n  margin: 0;\\n\\n  align-self: center;\\n  justify-self: center;\\n}\\n\\n.hero {\\n  display: grid;\\n  grid-template-columns: 1fr 1fr;\\n  grid-template-rows: 1fr 1fr;\\n  justify-content: center;\\n\\n  grid-column: 1 / -1;\\n  justify-self: center;\\n\\n  background-color: rgba(0, 0, 0, .75);\\n\\n  width: 100%;\\n}\\n\\n.hero i {\\n  align-self: center;\\n  justify-self: right;\\n\\n  padding: 0 16px;\\n}\\n\\n.temperature {\\n  align-self: end;\\n}\\n\\n\\n.icon {\\n  justify-self: right;\\n  align-self: center;\\n}\\n\\n.text {\\npadding: 0 16px;\\nalign-self: center;\\n}\\n\\n/* CURRENT WEATHER */\\n\\n.current-weather.card {\\n  grid-column: 1 / span 2;\\n  grid-row: 1 / span 2;\\n\\n\\n  min-width: 320px;\\n  height: 40vh;\\n\\n  border-radius: 16px;\\n}\\n\\n.current-weather h2 {\\n  font-size: 32px;\\n  font-weight: 800;\\n}\\n\\n.current-weather .hero i {\\n  font-size: max(50px, 10vh);\\n  grid-row: 1 / -1;\\n}\\n\\n.current-weather .temperature {\\n  font-size: max(44px, 2rem);\\n  line-height: max(44px, 2rem);\\n}\\n\\n.current-weather .descr {\\n    width: 100%;\\n\\n    align-self: start; \\n}\\n\\n.current-weather .icon, .current-weather .text {\\n  font-size: 24px;\\n}\\n\\n.humidity, .feels-like {\\n  display: flex;\\n  justify-content: center;\\n}\\n\\n/* EXTENDED FORECAST */\\n.extended-forecast.card {\\n  grid-row: 2 / -1;\\n\\n  min-width: 180px;\\n  height: 100%;\\n\\n  border-radius: 10px;\\n}\\n.extended-forecast h2 {\\n  font-weight: 600;\\n}\\n\\n.extended-forecast .hero i {\\n  grid-column: 1 / 2;\\n  font-size: 1.5rem;\\n}\\n\\n.extended-forecast .temperature {\\n  grid-column: 2/-1;\\n} \\n\\n.extended-forecast .descr {\\n  grid-column: 1 / -1;\\n  justify-self: center;\\n}\\n\\n/* FOR TOGGLE */\\n.switch {\\n    position: relative;\\n    display: inline-block;\\n    width: 44px;\\n    height: 26px;\\n  }\\n  \\n  /* Hide default HTML checkbox */\\n  .switch input {\\n    opacity: 0;\\n    width: 0;\\n    height: 0;\\n  }\\n  \\n  .slider {\\n    position: absolute;\\n    cursor: pointer;\\n    top: 0;\\n    left: 0;\\n    right: 0;\\n    bottom: 0;\\n    background-color: var(--accent-colour);\\n    -webkit-transition: .4s;\\n    transition: .4s;\\n    border-radius: 26px;\\n  }\\n  \\n  .slider:before {\\n    position: absolute;\\n    content: \\\"\\\";\\n    height: 18px;\\n    width: 18px;\\n    left: 4px;\\n    bottom: 4px;\\n    background-color: white;\\n    -webkit-transition: .4s;\\n    transition: .4s;\\n    border-radius: 50%;\\n  }\\n  \\n  input:checked + .slider {\\n    background-color: var(--accent-colour);\\n  }\\n  \\n  input:focus + .slider {\\n    box-shadow: 0 0 1px var(--accent-colour);\\n  }\\n  \\n  input:checked + .slider:before {\\n    -webkit-transform: translateX(18px);\\n    -ms-transform: translateX(18px);\\n    transform: translateX(18px);\\n  }\\n\\n  /* FONT AWESOME */\\n  @font-face {\\n    font-family: 'Font Awesome';\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('woff2'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format('truetype');\\n    font-weight: 600;\\n    font-style: normal;\\n  }\\n  .fa {\\n    font-family: 'Font Awesome'; \\n  }\\n\\n  .fa-solid {\\n    -moz-osx-font-smoothing: grayscale;\\n    -webkit-font-smoothing: antialiased;\\n    display: var(--fa-display, inline-block);\\n    font-style: normal;\\n    font-variant: normal;\\n    line-height: 1;\\n    text-rendering: auto; \\n  }\\n\\n  .fa-magnifying-glass::before {\\n    content: \\\"\\\\f002\\\"; \\n  }\\n\\n/* WEATHER ICONS BY ERIK FLOWERS */\\n@font-face {\\n  font-family: 'weathericons';\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format('embedded-opentype'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format('woff2'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format('woff'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format('truetype'), url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \") format('svg');\\n  font-weight: normal;\\n  font-style: normal;\\n}\\n.wi {\\n  display: inline-block;\\n  font-family: 'weathericons';\\n  font-style: normal;\\n  font-weight: normal;\\n  line-height: 1;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n.wi-fw {\\n  text-align: center;\\n  width: 1.4em;\\n}\\n.wi-rotate-90 {\\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\\n  -webkit-transform: rotate(90deg);\\n  -ms-transform: rotate(90deg);\\n  transform: rotate(90deg);\\n}\\n.wi-rotate-180 {\\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);\\n  -webkit-transform: rotate(180deg);\\n  -ms-transform: rotate(180deg);\\n  transform: rotate(180deg);\\n}\\n.wi-rotate-270 {\\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\\n  -webkit-transform: rotate(270deg);\\n  -ms-transform: rotate(270deg);\\n  transform: rotate(270deg);\\n}\\n.wi-flip-horizontal {\\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);\\n  -webkit-transform: scale(-1, 1);\\n  -ms-transform: scale(-1, 1);\\n  transform: scale(-1, 1);\\n}\\n.wi-flip-vertical {\\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);\\n  -webkit-transform: scale(1, -1);\\n  -ms-transform: scale(1, -1);\\n  transform: scale(1, -1);\\n}\\n\\n.wi-thermometer:before {\\n  content: \\\"\\\\f055\\\";\\n}\\n.wi-thermometer-exterior:before {\\n  content: \\\"\\\\f053\\\";\\n}\\n.wi-thermometer-internal:before {\\n  content: \\\"\\\\f054\\\";\\n}\\n.wi-cloud-down:before {\\n  content: \\\"\\\\f03d\\\";\\n}\\n.wi-cloud-up:before {\\n  content: \\\"\\\\f040\\\";\\n}\\n.wi-cloud-refresh:before {\\n  content: \\\"\\\\f03e\\\";\\n}\\n.wi-refresh:before {\\n  content: \\\"\\\\f04c\\\";\\n}\\n.wi-refresh-alt:before {\\n  content: \\\"\\\\f04b\\\";\\n}\\n.wi-umbrella:before {\\n  content: \\\"\\\\f084\\\";\\n}\\n.wi-barometer:before {\\n  content: \\\"\\\\f079\\\";\\n}\\n.wi-humidity:before {\\n  content: \\\"\\\\f07a\\\";\\n}\\n.wi-na:before {\\n  content: \\\"\\\\f07b\\\";\\n}\\n.wi-time-1:before {\\n  content: \\\"\\\\f08a\\\";\\n}\\n.wi-time-2:before {\\n  content: \\\"\\\\f08b\\\";\\n}\\n.wi-time-3:before {\\n  content: \\\"\\\\f08c\\\";\\n}\\n.wi-time-4:before {\\n  content: \\\"\\\\f08d\\\";\\n}\\n.wi-time-5:before {\\n  content: \\\"\\\\f08e\\\";\\n}\\n.wi-time-6:before {\\n  content: \\\"\\\\f08f\\\";\\n}\\n.wi-time-7:before {\\n  content: \\\"\\\\f090\\\";\\n}\\n.wi-time-8:before {\\n  content: \\\"\\\\f091\\\";\\n}\\n.wi-time-9:before {\\n  content: \\\"\\\\f092\\\";\\n}\\n.wi-time-10:before {\\n  content: \\\"\\\\f093\\\";\\n}\\n.wi-time-11:before {\\n  content: \\\"\\\\f094\\\";\\n}\\n.wi-time-12:before {\\n  content: \\\"\\\\f089\\\";\\n}\\n.wi-owm-200:before {\\n  content: \\\"\\\\f01e\\\";\\n}\\n.wi-owm-201:before {\\n  content: \\\"\\\\f01e\\\";\\n}\\n.wi-owm-202:before {\\n  content: \\\"\\\\f01e\\\";\\n}\\n.wi-owm-210:before {\\n  content: \\\"\\\\f016\\\";\\n}\\n.wi-owm-211:before {\\n  content: \\\"\\\\f016\\\";\\n}\\n.wi-owm-212:before {\\n  content: \\\"\\\\f016\\\";\\n}\\n.wi-owm-221:before {\\n  content: \\\"\\\\f016\\\";\\n}\\n.wi-owm-230:before {\\n  content: \\\"\\\\f01e\\\";\\n}\\n.wi-owm-231:before {\\n  content: \\\"\\\\f01e\\\";\\n}\\n.wi-owm-232:before {\\n  content: \\\"\\\\f01e\\\";\\n}\\n.wi-owm-300:before {\\n  content: \\\"\\\\f01c\\\";\\n}\\n.wi-owm-301:before {\\n  content: \\\"\\\\f01c\\\";\\n}\\n.wi-owm-302:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-310:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-311:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-312:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-313:before {\\n  content: \\\"\\\\f01a\\\";\\n}\\n.wi-owm-314:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-321:before {\\n  content: \\\"\\\\f01c\\\";\\n}\\n.wi-owm-500:before {\\n  content: \\\"\\\\f01c\\\";\\n}\\n.wi-owm-501:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-502:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-503:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-504:before {\\n  content: \\\"\\\\f019\\\";\\n}\\n.wi-owm-511:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-520:before {\\n  content: \\\"\\\\f01a\\\";\\n}\\n.wi-owm-521:before {\\n  content: \\\"\\\\f01a\\\";\\n}\\n.wi-owm-522:before {\\n  content: \\\"\\\\f01a\\\";\\n}\\n.wi-owm-531:before {\\n  content: \\\"\\\\f01d\\\";\\n}\\n.wi-owm-600:before {\\n  content: \\\"\\\\f01b\\\";\\n}\\n.wi-owm-601:before {\\n  content: \\\"\\\\f01b\\\";\\n}\\n.wi-owm-602:before {\\n  content: \\\"\\\\f0b5\\\";\\n}\\n.wi-owm-611:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-612:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-615:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-616:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-620:before {\\n  content: \\\"\\\\f017\\\";\\n}\\n.wi-owm-621:before {\\n  content: \\\"\\\\f01b\\\";\\n}\\n.wi-owm-622:before {\\n  content: \\\"\\\\f01b\\\";\\n}\\n.wi-owm-701:before {\\n  content: \\\"\\\\f014\\\";\\n}\\n.wi-owm-711:before {\\n  content: \\\"\\\\f062\\\";\\n}\\n.wi-owm-721:before {\\n  content: \\\"\\\\f0b6\\\";\\n}\\n.wi-owm-731:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-741:before {\\n  content: \\\"\\\\f014\\\";\\n}\\n.wi-owm-761:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-762:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-771:before {\\n  content: \\\"\\\\f011\\\";\\n}\\n.wi-owm-781:before {\\n  content: \\\"\\\\f056\\\";\\n}\\n.wi-owm-800:before {\\n  content: \\\"\\\\f00d\\\";\\n}\\n.wi-owm-801:before {\\n  content: \\\"\\\\f041\\\";\\n}\\n.wi-owm-802:before {\\n  content: \\\"\\\\f041\\\";\\n}\\n.wi-owm-803:before {\\n  content: \\\"\\\\f013\\\";\\n}\\n.wi-owm-804:before {\\n  content: \\\"\\\\f013\\\";\\n}\\n.wi-owm-900:before {\\n  content: \\\"\\\\f056\\\";\\n}\\n.wi-owm-901:before {\\n  content: \\\"\\\\f01d\\\";\\n}\\n.wi-owm-902:before {\\n  content: \\\"\\\\f073\\\";\\n}\\n.wi-owm-903:before {\\n  content: \\\"\\\\f076\\\";\\n}\\n.wi-owm-904:before {\\n  content: \\\"\\\\f072\\\";\\n}\\n.wi-owm-905:before {\\n  content: \\\"\\\\f021\\\";\\n}\\n.wi-owm-906:before {\\n  content: \\\"\\\\f015\\\";\\n}\\n.wi-owm-957:before {\\n  content: \\\"\\\\f050\\\";\\n}\\n.wi-owm-day-200:before {\\n  content: \\\"\\\\f010\\\";\\n}\\n.wi-owm-day-201:before {\\n  content: \\\"\\\\f010\\\";\\n}\\n.wi-owm-day-202:before {\\n  content: \\\"\\\\f010\\\";\\n}\\n.wi-owm-day-210:before {\\n  content: \\\"\\\\f005\\\";\\n}\\n.wi-owm-day-211:before {\\n  content: \\\"\\\\f005\\\";\\n}\\n.wi-owm-day-212:before {\\n  content: \\\"\\\\f005\\\";\\n}\\n.wi-owm-day-221:before {\\n  content: \\\"\\\\f005\\\";\\n}\\n.wi-owm-day-230:before {\\n  content: \\\"\\\\f010\\\";\\n}\\n.wi-owm-day-231:before {\\n  content: \\\"\\\\f010\\\";\\n}\\n.wi-owm-day-232:before {\\n  content: \\\"\\\\f010\\\";\\n}\\n.wi-owm-day-300:before {\\n  content: \\\"\\\\f00b\\\";\\n}\\n.wi-owm-day-301:before {\\n  content: \\\"\\\\f00b\\\";\\n}\\n.wi-owm-day-302:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-310:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-311:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-312:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-313:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-314:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-321:before {\\n  content: \\\"\\\\f00b\\\";\\n}\\n.wi-owm-day-500:before {\\n  content: \\\"\\\\f00b\\\";\\n}\\n.wi-owm-day-501:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-502:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-503:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-504:before {\\n  content: \\\"\\\\f008\\\";\\n}\\n.wi-owm-day-511:before {\\n  content: \\\"\\\\f006\\\";\\n}\\n.wi-owm-day-520:before {\\n  content: \\\"\\\\f009\\\";\\n}\\n.wi-owm-day-521:before {\\n  content: \\\"\\\\f009\\\";\\n}\\n.wi-owm-day-522:before {\\n  content: \\\"\\\\f009\\\";\\n}\\n.wi-owm-day-531:before {\\n  content: \\\"\\\\f00e\\\";\\n}\\n.wi-owm-day-600:before {\\n  content: \\\"\\\\f00a\\\";\\n}\\n.wi-owm-day-601:before {\\n  content: \\\"\\\\f0b2\\\";\\n}\\n.wi-owm-day-602:before {\\n  content: \\\"\\\\f00a\\\";\\n}\\n.wi-owm-day-611:before {\\n  content: \\\"\\\\f006\\\";\\n}\\n.wi-owm-day-612:before {\\n  content: \\\"\\\\f006\\\";\\n}\\n.wi-owm-day-615:before {\\n  content: \\\"\\\\f006\\\";\\n}\\n.wi-owm-day-616:before {\\n  content: \\\"\\\\f006\\\";\\n}\\n.wi-owm-day-620:before {\\n  content: \\\"\\\\f006\\\";\\n}\\n.wi-owm-day-621:before {\\n  content: \\\"\\\\f00a\\\";\\n}\\n.wi-owm-day-622:before {\\n  content: \\\"\\\\f00a\\\";\\n}\\n.wi-owm-day-701:before {\\n  content: \\\"\\\\f003\\\";\\n}\\n.wi-owm-day-711:before {\\n  content: \\\"\\\\f062\\\";\\n}\\n.wi-owm-day-721:before {\\n  content: \\\"\\\\f0b6\\\";\\n}\\n.wi-owm-day-731:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-day-741:before {\\n  content: \\\"\\\\f003\\\";\\n}\\n.wi-owm-day-761:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-day-762:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-day-781:before {\\n  content: \\\"\\\\f056\\\";\\n}\\n.wi-owm-day-800:before {\\n  content: \\\"\\\\f00d\\\";\\n}\\n.wi-owm-day-801:before {\\n  content: \\\"\\\\f002\\\";\\n}\\n.wi-owm-day-802:before {\\n  content: \\\"\\\\f002\\\";\\n}\\n.wi-owm-day-803:before {\\n  content: \\\"\\\\f013\\\";\\n}\\n.wi-owm-day-804:before {\\n  content: \\\"\\\\f013\\\";\\n}\\n.wi-owm-day-900:before {\\n  content: \\\"\\\\f056\\\";\\n}\\n.wi-owm-day-902:before {\\n  content: \\\"\\\\f073\\\";\\n}\\n.wi-owm-day-903:before {\\n  content: \\\"\\\\f076\\\";\\n}\\n.wi-owm-day-904:before {\\n  content: \\\"\\\\f072\\\";\\n}\\n.wi-owm-day-906:before {\\n  content: \\\"\\\\f004\\\";\\n}\\n.wi-owm-day-957:before {\\n  content: \\\"\\\\f050\\\";\\n}\\n.wi-owm-night-200:before {\\n  content: \\\"\\\\f02d\\\";\\n}\\n.wi-owm-night-201:before {\\n  content: \\\"\\\\f02d\\\";\\n}\\n.wi-owm-night-202:before {\\n  content: \\\"\\\\f02d\\\";\\n}\\n.wi-owm-night-210:before {\\n  content: \\\"\\\\f025\\\";\\n}\\n.wi-owm-night-211:before {\\n  content: \\\"\\\\f025\\\";\\n}\\n.wi-owm-night-212:before {\\n  content: \\\"\\\\f025\\\";\\n}\\n.wi-owm-night-221:before {\\n  content: \\\"\\\\f025\\\";\\n}\\n.wi-owm-night-230:before {\\n  content: \\\"\\\\f02d\\\";\\n}\\n.wi-owm-night-231:before {\\n  content: \\\"\\\\f02d\\\";\\n}\\n.wi-owm-night-232:before {\\n  content: \\\"\\\\f02d\\\";\\n}\\n.wi-owm-night-300:before {\\n  content: \\\"\\\\f02b\\\";\\n}\\n.wi-owm-night-301:before {\\n  content: \\\"\\\\f02b\\\";\\n}\\n.wi-owm-night-302:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-310:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-311:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-312:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-313:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-314:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-321:before {\\n  content: \\\"\\\\f02b\\\";\\n}\\n.wi-owm-night-500:before {\\n  content: \\\"\\\\f02b\\\";\\n}\\n.wi-owm-night-501:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-502:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-503:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-504:before {\\n  content: \\\"\\\\f028\\\";\\n}\\n.wi-owm-night-511:before {\\n  content: \\\"\\\\f026\\\";\\n}\\n.wi-owm-night-520:before {\\n  content: \\\"\\\\f029\\\";\\n}\\n.wi-owm-night-521:before {\\n  content: \\\"\\\\f029\\\";\\n}\\n.wi-owm-night-522:before {\\n  content: \\\"\\\\f029\\\";\\n}\\n.wi-owm-night-531:before {\\n  content: \\\"\\\\f02c\\\";\\n}\\n.wi-owm-night-600:before {\\n  content: \\\"\\\\f02a\\\";\\n}\\n.wi-owm-night-601:before {\\n  content: \\\"\\\\f0b4\\\";\\n}\\n.wi-owm-night-602:before {\\n  content: \\\"\\\\f02a\\\";\\n}\\n.wi-owm-night-611:before {\\n  content: \\\"\\\\f026\\\";\\n}\\n.wi-owm-night-612:before {\\n  content: \\\"\\\\f026\\\";\\n}\\n.wi-owm-night-615:before {\\n  content: \\\"\\\\f026\\\";\\n}\\n.wi-owm-night-616:before {\\n  content: \\\"\\\\f026\\\";\\n}\\n.wi-owm-night-620:before {\\n  content: \\\"\\\\f026\\\";\\n}\\n.wi-owm-night-621:before {\\n  content: \\\"\\\\f02a\\\";\\n}\\n.wi-owm-night-622:before {\\n  content: \\\"\\\\f02a\\\";\\n}\\n.wi-owm-night-701:before {\\n  content: \\\"\\\\f04a\\\";\\n}\\n.wi-owm-night-711:before {\\n  content: \\\"\\\\f062\\\";\\n}\\n.wi-owm-night-721:before {\\n  content: \\\"\\\\f0b6\\\";\\n}\\n.wi-owm-night-731:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-night-741:before {\\n  content: \\\"\\\\f04a\\\";\\n}\\n.wi-owm-night-761:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-night-762:before {\\n  content: \\\"\\\\f063\\\";\\n}\\n.wi-owm-night-781:before {\\n  content: \\\"\\\\f056\\\";\\n}\\n.wi-owm-night-800:before {\\n  content: \\\"\\\\f02e\\\";\\n}\\n.wi-owm-night-801:before {\\n  content: \\\"\\\\f081\\\";\\n}\\n.wi-owm-night-802:before {\\n  content: \\\"\\\\f086\\\";\\n}\\n.wi-owm-night-803:before {\\n  content: \\\"\\\\f013\\\";\\n}\\n.wi-owm-night-804:before {\\n  content: \\\"\\\\f013\\\";\\n}\\n.wi-owm-night-900:before {\\n  content: \\\"\\\\f056\\\";\\n}\\n.wi-owm-night-902:before {\\n  content: \\\"\\\\f073\\\";\\n}\\n.wi-owm-night-903:before {\\n  content: \\\"\\\\f076\\\";\\n}\\n.wi-owm-night-904:before {\\n  content: \\\"\\\\f072\\\";\\n}\\n.wi-owm-night-906:before {\\n  content: \\\"\\\\f024\\\";\\n}\\n.wi-owm-night-957:before {\\n  content: \\\"\\\\f050\\\";\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n\n      content += cssWithMappingToString(item);\n\n      if (needLayer) {\n        content += \"}\";\n      }\n\n      if (item[2]) {\n        content += \"}\";\n      }\n\n      if (item[4]) {\n        content += \"}\";\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n\n\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/css-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
+  \**************************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
 /***/ "./node_modules/date-fns/esm/_lib/addLeadingZeros/index.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/date-fns/esm/_lib/addLeadingZeros/index.js ***!
@@ -380,6 +420,76 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/styles.css":
+/*!************************!*\
+  !*** ./src/styles.css ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://weather-app/./src/styles.css?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+eval("\n\nvar stylesInDOM = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n\n  return updater;\n}\n\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+eval("\n\nvar memo = {};\n/* istanbul ignore next  */\n\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n\n    memo[target] = styleTarget;\n  }\n\n  return memo[target];\n}\n/* istanbul ignore next  */\n\n\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n\n  target.appendChild(style);\n}\n\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://weather-app/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\n\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://weather-app/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\n\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://weather-app/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n\n  var needLayer = typeof obj.layer !== \"undefined\";\n\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n\n  css += obj.css;\n\n  if (needLayer) {\n    css += \"}\";\n  }\n\n  if (obj.media) {\n    css += \"}\";\n  }\n\n  if (obj.supports) {\n    css += \"}\";\n  }\n\n  var sourceMap = obj.sourceMap;\n\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  options.styleTagTransform(css, styleElement, options.options);\n}\n\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n\n  styleElement.parentNode.removeChild(styleElement);\n}\n/* istanbul ignore next  */\n\n\nfunction domAPI(options) {\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\n\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://weather-app/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://weather-app/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+/***/ }),
+
 /***/ "./src/dom-methods.js":
 /*!****************************!*\
   !*** ./src/dom-methods.js ***!
@@ -396,7 +506,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _weather_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./weather-data */ \"./src/weather-data.js\");\n/* harmony import */ var _ui_search_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ui-search-util */ \"./src/ui-search-util.js\");\n/* harmony import */ var _dom_methods__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dom-methods */ \"./src/dom-methods.js\");\n/* eslint-disable no-use-before-define */\n\n\n\n\n// #region CACHED REFS\nconst defaultLocation = {city: 'London', state: '', country: ''};\n\nconst form = document.getElementById('location-form');\nconst searchInput = document.getElementById('search-input');\nconst errorMsg = document.getElementById('search-error');\n\nlet tempUnits = 'metric';  // Can be 'metric' or 'imperial'\nlet mostRecentSearch;\nconst tempToggleSwitch = document.querySelector('#temperature-settings input');\ntempToggleSwitch.addEventListener('change', toggleTempUnits);\n// #endregion\n\n// #region ADDING LISTENERS\nform.addEventListener('submit', (e) => {\n    e.preventDefault();\n    hideErrorMsg();  // In case the error message is not already hidden. \n    // Validation\n    if (searchInput.validity.valid) {\n        // If correct, handle data for API call\n        const parsedInput = (0,_ui_search_util__WEBPACK_IMPORTED_MODULE_1__.parseSearchInput)(searchInput.value);\n        updateForecast(parsedInput);\n    }\n    // If incorrect, display error message detailing format. \n    else {\n        displayInputError('Invalid format. ');\n    }\n})\n// #endregion\n\n// #region FUNCTION DEFS\n    \n    // Displays error message upon failed search request. It is possible to add a preface to the message.\n    function displayInputError(preface) {\n        errorMsg.classList.add('visible');\n        errorMsg.textContent = `${preface}Please use the following format: \n        \"City\", \"City, Country\", or (for USA only) \"City, State, Country\".`;\n        setTimeout(hideErrorMsg, 8000);\n    }\n\n    function hideErrorMsg() {\n        errorMsg.textContent = '';\n        errorMsg.classList.remove('visible');\n    }\n\n    // Toggles value of tempUnits between metric and imperial\n    function toggleTempUnits() {\n        // Changes reference to unit type\n        tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';\n        // Updates display to match, using most recent search query\n        updateForecast(mostRecentSearch);\n    }\n\n    function updateForecast(location) {\n        (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)(location)\n        .then(locationData => (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.getWeatherData)(locationData, tempUnits))\n        .then(weatherData => (0,_dom_methods__WEBPACK_IMPORTED_MODULE_2__.updateUi)(weatherData, tempUnits))\n        .catch(() => displayInputError('Location not found. '));\n\n        // Also sets the last search result as this location\n        mostRecentSearch = location;\n    }\n// #endregion \n\n// #region INIT\nupdateForecast(defaultLocation);\n// #endregion\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _weather_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./weather-data */ \"./src/weather-data.js\");\n/* harmony import */ var _ui_search_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ui-search-util */ \"./src/ui-search-util.js\");\n/* harmony import */ var _dom_methods__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dom-methods */ \"./src/dom-methods.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* eslint-disable no-use-before-define */\n\n\n\n\n\n// #region CACHED REFS\nconst defaultLocation = {city: 'London', state: '', country: ''};\n\nconst form = document.getElementById('location-form');\nconst searchInput = document.getElementById('search-input');\nconst errorMsg = document.getElementById('search-error');\n\nlet tempUnits = 'metric';  // Can be 'metric' or 'imperial'\nlet mostRecentSearch;\nconst tempToggleSwitch = document.querySelector('#temperature-settings input');\ntempToggleSwitch.addEventListener('change', toggleTempUnits);\n// #endregion\n\n// #region ADDING LISTENERS\nform.addEventListener('submit', (e) => {\n    e.preventDefault();\n    hideErrorMsg();  // In case the error message is not already hidden. \n    // Validation\n    if (searchInput.validity.valid) {\n        // If correct, handle data for API call\n        const parsedInput = (0,_ui_search_util__WEBPACK_IMPORTED_MODULE_1__.parseSearchInput)(searchInput.value);\n        updateForecast(parsedInput);\n    }\n    // If incorrect, display error message detailing format. \n    else {\n        displayInputError('Invalid format. ');\n    }\n})\n// #endregion\n\n// #region FUNCTION DEFS\n    \n    // Displays error message upon failed search request. It is possible to add a preface to the message.\n    function displayInputError(preface) {\n        errorMsg.classList.add('visible');\n        errorMsg.textContent = `${preface}Please use the following format: \n        \"City\", \"City, Country\", or (for USA only) \"City, State, Country\".`;\n        setTimeout(hideErrorMsg, 8000);\n    }\n\n    function hideErrorMsg() {\n        errorMsg.textContent = '';\n        errorMsg.classList.remove('visible');\n    }\n\n    // Toggles value of tempUnits between metric and imperial\n    function toggleTempUnits() {\n        // Changes reference to unit type\n        tempUnits = (tempUnits === 'metric') ? 'imperial' : 'metric';\n        // Updates display to match, using most recent search query\n        updateForecast(mostRecentSearch);\n    }\n\n    function updateForecast(location) {\n        (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.geocodingLocation)(location)\n        .then(locationData => (0,_weather_data__WEBPACK_IMPORTED_MODULE_0__.getWeatherData)(locationData, tempUnits))\n        .then(weatherData => (0,_dom_methods__WEBPACK_IMPORTED_MODULE_2__.updateUi)(weatherData, tempUnits))\n        .catch(() => displayInputError('Location not found. '));\n\n        // Also sets the last search result as this location\n        mostRecentSearch = location;\n    }\n// #endregion \n\n// #region INIT\nupdateForecast(defaultLocation);\n// #endregion\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 
@@ -418,6 +528,86 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"geocodingLocation\": () => (/* binding */ geocodingLocation),\n/* harmony export */   \"getWeatherData\": () => (/* binding */ getWeatherData)\n/* harmony export */ });\n/* eslint-disable no-useless-catch */\nasync function geocodingLocation(parsedInput) {\n    try {\n        const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${parsedInput.city},${parsedInput.state},${parsedInput.country}&appid=2a896af0add10ce545b2b79922b2e72a`);\n        const json = await response.json();\n        return {\n            lat: json[0].lat, \n            lon: json[0].lon,\n        };\n    } catch(err) {\n        throw err;\n    }\n}\n\nasync function getWeatherData(location, tempUnits) {\n    try {\n        const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${location.lat}&lon=${location.lon}&appid=2a896af0add10ce545b2b79922b2e72a&units=${tempUnits}`);\n        const json = await response.json();\n        return {\n            location: `${json.city.name}, ${json.city.country}`,\n            timezone: json.city.timezone,\n            datalist: [\n                { id: json.list[0].weather[0].id,\n                  descr: json.list[0].weather[0].description,\n                  temp: json.list[0].main.temp,\n                  humidity: json.list[0].main.humidity,\n                  feelsLike: json.list[0].main.feels_like,\n                  timestamp: json.list[0].dt_txt,\n                }, \n                { id: json.list[2].weather[0].id,\n                    descr: json.list[2].weather[0].description,\n                    temp: json.list[2].main.temp,\n                    humidity: json.list[2].main.humidity,\n                    feelsLike: json.list[2].main.feels_like,\n                    timestamp: json.list[2].dt_txt,\n                }, \n                { id: json.list[4].weather[0].id,\n                    descr: json.list[4].weather[0].description,\n                    temp: json.list[4].main.temp,\n                    humidity: json.list[4].main.humidity,\n                    feelsLike: json.list[4].main.feels_like,\n                    timestamp: json.list[4].dt_txt,\n                }, \n                { id: json.list[6].weather[0].id,\n                    descr: json.list[6].weather[0].description,\n                    temp: json.list[6].main.temp,\n                    humidity: json.list[6].main.humidity,\n                    feelsLike: json.list[6].main.feels_like,\n                    timestamp: json.list[6].dt_txt,\n                }, \n                { id: json.list[8].weather[0].id,\n                    descr: json.list[8].weather[0].description,\n                    temp: json.list[8].main.temp,\n                    humidity: json.list[8].main.humidity,\n                    feelsLike: json.list[8].main.feels_like,\n                    timestamp: json.list[8].dt_txt,\n                }, \n                { id: json.list[10].weather[0].id,\n                    descr: json.list[10].weather[0].description,\n                    temp: json.list[10].main.temp,\n                    humidity: json.list[10].main.humidity,\n                    feelsLike: json.list[10].main.feels_like,\n                    timestamp: json.list[10].dt_txt,\n                }\n            ],\n            \n            /* description: json.weather[0].description,\n            id: json.weather[0].id,\n            temp: json.main.temp,\n            humidity: json.main.humidity,\n            feelsLike: json.main.feels_like, */\n        };\n    } catch(err) {\n        console.error('Problem with getting weather data! Perhaps later I will want a UI thing to happen here.');\n        throw err;\n    }\n}\n\n\n\n\n//# sourceURL=webpack://weather-app/./src/weather-data.js?");
 
+/***/ }),
+
+/***/ "./src/assets/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg":
+/*!****************************************************************!*\
+  !*** ./src/assets/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"25cd0432888eacc5463b.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/ui-icons/font-awesome/fa-solid-900.ttf":
+/*!***********************************************************!*\
+  !*** ./src/assets/ui-icons/font-awesome/fa-solid-900.ttf ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e615bbcb258550973c16.ttf\";\n\n//# sourceURL=webpack://weather-app/./src/assets/ui-icons/font-awesome/fa-solid-900.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/ui-icons/font-awesome/fa-solid-900.woff2":
+/*!*************************************************************!*\
+  !*** ./src/assets/ui-icons/font-awesome/fa-solid-900.woff2 ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"59edf72a325ac2048d60.woff2\";\n\n//# sourceURL=webpack://weather-app/./src/assets/ui-icons/font-awesome/fa-solid-900.woff2?");
+
+/***/ }),
+
+/***/ "./src/assets/weather-icons/weathericons-regular-webfont.eot":
+/*!*******************************************************************!*\
+  !*** ./src/assets/weather-icons/weathericons-regular-webfont.eot ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"bb2ec001c20cf752f852.eot\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-icons/weathericons-regular-webfont.eot?");
+
+/***/ }),
+
+/***/ "./src/assets/weather-icons/weathericons-regular-webfont.svg":
+/*!*******************************************************************!*\
+  !*** ./src/assets/weather-icons/weathericons-regular-webfont.svg ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1341a15172cec8dae06e.svg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-icons/weathericons-regular-webfont.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/weather-icons/weathericons-regular-webfont.ttf":
+/*!*******************************************************************!*\
+  !*** ./src/assets/weather-icons/weathericons-regular-webfont.ttf ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0942d1e1c447d6ce3ffc.ttf\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-icons/weathericons-regular-webfont.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/weather-icons/weathericons-regular-webfont.woff":
+/*!********************************************************************!*\
+  !*** ./src/assets/weather-icons/weathericons-regular-webfont.woff ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"371511ddba5fdac0538c.woff\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-icons/weathericons-regular-webfont.woff?");
+
+/***/ }),
+
+/***/ "./src/assets/weather-icons/weathericons-regular-webfont.woff2":
+/*!*********************************************************************!*\
+  !*** ./src/assets/weather-icons/weathericons-regular-webfont.woff2 ***!
+  \*********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e218aee6928fe3da9ed6.woff2\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-icons/weathericons-regular-webfont.woff2?");
+
 /***/ })
 
 /******/ 	});
@@ -434,7 +624,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
+/******/ 			id: moduleId,
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -446,7 +636,22 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -457,6 +662,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 				}
 /******/ 			}
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -473,6 +690,57 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/

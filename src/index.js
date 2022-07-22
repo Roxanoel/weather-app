@@ -2,6 +2,7 @@
 import { geocodingLocation, getWeatherData } from "./weather-data";
 import { parseSearchInput } from "./ui-search-util";
 import { updateUi } from "./dom-methods";
+import './styles.css';
 
 // #region CACHED REFS
 const defaultLocation = {city: 'London', state: '', country: ''};
